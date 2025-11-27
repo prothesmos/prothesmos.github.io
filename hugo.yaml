@@ -1,0 +1,92 @@
+theme: docura
+enableGitInfo: true
+defaultContentLanguage: en
+
+languages:
+  en:
+    weight: 1
+    languageName: English
+    languageCode: en-US
+    contentDir: content/docs
+    title: Pro-Thesmos-HQ
+    params:
+       description: Github Page Documentation Project.
+
+services:
+  googleAnalytics:
+    ID: G-GRJ5QLNSEQ
+
+markup:
+  highlight:
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  author:
+    name: Pro Thesmos Lukas
+    url: https://github.com/prothesmos
+
+  themeColors:
+    light: '#fffff5'
+    dark: '#121212'
+
+  years:
+    start: 2018
+    present: 2025
+
+  social:
+    github: prothesmos
+    youtube: ''
+    facebook: ''
+    x: ''
+
+  ads:
+    googleAdSense: ''
+
+ # donate:
+ #  buyMeACoffee: dumindu
+ #  githubSponsor: dumindu
+
+ # algolia:
+ #  en:
+ #    container: '#site-header-search'
+ #    appId: 'docura'
+ #    indexName: 'docura'
+ #    apiKey: ''
+
+  home:
+    repository: prothesmos/prothesmos.github.io
+
+menu:
+  main:
+    - url: /
+      name: Home
+      identifier: home
+      pre: "<i class='icon icon-home'></i>"
+      weight: 1
+
+    - url: /docs
+      name: Documentation
+      identifier: docs
+      pre: "<i class='icon icon-docs'></i>"
+      weight: 2
+
+    - url: /book
+      name: NoteBook
+      identifier: book
+      pre: "<i class='icon icon-book'></i>"
+      weight: 3
+
+    - url: https://blog.thesmos.asia
+      name: Blog
+      identifier: blog
+      pre: "<i class='icon icon-blog'></i>"
+      weight: 4
+    - url: https://prothesmoshq.vercel.app
+      name: Page
+      identifier: page
+      pre: "<i class='icon icon-page'></i>"
+      weight: 5
+

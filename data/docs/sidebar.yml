@@ -1,0 +1,14 @@
+- title: 📖 Documentation
+  pages:
+    - title: Overview
+    - title: Sample
+
+- title: 🌱 Getting Started
+  pages:
+    - title: Installation
+    - title: Configurations
+    - title: First Documentation
+
+- title: ❤️ Made with Docura
+  pages:
+    - title: Showcase
