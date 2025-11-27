@@ -10,7 +10,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     env:
-        HUGO_CACHEDIR: /tmp/hugo_cache
+       HUGO_CACHEDIR: /tmp/hugo_cache
     concurrency:
         group: ${{ github.workflow }}-${{ github.ref }}
     steps:
@@ -43,9 +43,9 @@ jobs:
      #   with:
      #      ruby-version: latest
 
-     # - run: npm ci
-      - name: Build Hugo
-        run: hugo --minify
+      - run: npm ci
+     # - name: Build Hugo
+      - run: hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
