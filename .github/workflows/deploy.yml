@@ -56,4 +56,4 @@ jobs:
           # external_repository: docura/docura.github.io
            publish_branch: gh-pages
            publish_dir: ./public
-          # cname:
+           cname: host.lucathar.site
