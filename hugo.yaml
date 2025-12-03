@@ -26,14 +26,14 @@ markup:
 params:
   author:
     name: Pro Thesmos Lukas
-    url: https://github.com/prothesmos
+    url: https://host.lucathar.site
 
   themeColors:
     light: '#fffff5'
     dark: '#121212'
 
   years:
-    start: 2018
+    start: 2020
     present: 2025
 
   social:
